@@ -1,0 +1,44 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #b6c2be;
+      padding: 20px;
+    }
+    .container {
+      max-width: 500px;
+      margin: auto;
+      background: #c2d0cb;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(5, 104, 81, 0.678);
+    }
+    h2 {
+      text-align: center;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input[type="text"], input[type="email"], input[type="password"], input[type="date"], input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .checkbox-group, .radio-group {
+      margin-top: 10px;
+    }
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background: #044157;
+      color: rgb(75, 212, 194);
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #118a93;
+    }

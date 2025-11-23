@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M-SESH</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2 style="color: #044157;">M-SESH CON NOI!</h2>
+    <form id="registrationForm" onsubmit="alert('M-SESHED!')">
+      <label>Nome</label>
+      <input type="text" required />
+
+      <label>Cognome</label>
+      <input type="text" required />
+
+      <label>Email</label>
+      <input type="email" required />
+
+      <label>Password</label>
+      <input type="password" required />
+
+      <label>Data di nascita</label>
+      <input type="date" required />
+
+      <label>Numero di telefono</label>
+      <input type="number" required />
+
+      <div class="checkbox-group">
+        <p>Seleziona i tuoi gusti M-SESH:</p>
+        <label><input type="checkbox" /> Elettronica</label>
+        <label><input type="checkbox" /> Metal</label>
+        <label><input type="checkbox" /> Drone</label>
+        <label><input type="checkbox" /> Classica</label>
+        <label><input type="checkbox" /> New Wave</label>
+      </div>
+
+      <div class="radio-group">
+        <p>Accetti i termini e condizioni?</p>
+        <label><input type="radio" name="terms" required /> Sì</label>
+      </div>
+
+      <button type="submit">Invia registrazione</button>
+    </form>
+  </div>
+</body>
+</html>
